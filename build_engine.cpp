@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
   std::string const engine_file_name{"identity_neural_network.trt"};
   std::string const onnx_file_path{data_dir_path + "/" + onnx_file_name};
   std::string const engine_file_path{data_dir_path + "/" + engine_file_name};
-  std::string const plugin_library_name{"libidentity_conv_plugin.so"};
+  std::string const plugin_library_name{"libidentity_conv_plugin_trtpg.so"};
   std::string const plugin_library_dir_path{"."};
   std::string const plugin_library_path{plugin_library_dir_path + "/" + plugin_library_name};
   char const* const plugin_library_path_c_str{plugin_library_path.c_str()};
